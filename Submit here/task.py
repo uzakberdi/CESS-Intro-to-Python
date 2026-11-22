@@ -38,7 +38,7 @@ guessed = ""
 wrong = 0
 won = False
 
-for attempt in range(8):     # task #2: how many attempts should be?🤔
+for attempt in range(6):     # task #2: how many attempts should be?🤔
     # --- 1. showing word or mistakes number ---
     display = ""
     for letter in word:
