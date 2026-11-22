@@ -33,7 +33,7 @@ info.penup()
 bekhruz = 202553460038        #Additional task
 
 # ===== Game settings =====
-word = "doraimon"    # task #1: insert your own word (any word you want)
+word = "adolfi"    # task #1: insert your own word (any word you want)
 guessed = ""
 wrong = 0
 won = False
