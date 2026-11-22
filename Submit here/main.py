@@ -30,20 +30,20 @@ info.hideturtle()
 info.penup()
 
 # ===== Student info (additional task) =====
-student_name = "Bakhtani Inamullah"
-student_id = "202651620014"
+student_name = "Sarfraz Tayyba"
+student_id = "202651200010"
 info.goto(-300, 300)
 info.write("Name: " + student_name + "   ID: " + student_id, font=("Arial", 14, "bold"))
 
 # ===== Game settings =====
-word = "python"   # task #1:  own word
+word = "luck"   # task #1:  own word
 guessed = ""
 wrong = 0
 won = False
 
 # task #2: 6 mistakes are allowed, but correct/repeated guesses also use a turn,
 # so we give plenty of turns (30) and stop the game early when wrong reaches 6.
-for attempt in range(30):
+for attempt in range(26):
     # --- 1. showing word or mistakes number ---
     display = ""
     for letter in word:
