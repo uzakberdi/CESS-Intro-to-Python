@@ -29,16 +29,16 @@ info = turtle.Turtle()
 info.hideturtle()
 info.penup()
 
-
+Nirvana = 202653080032           #the additional task required during the workshop today
 
 
 # ===== Game settings =====
-word = ""   # task #1: insert your own word (any word you want)
+word = "Simon"   # task #1: insert your own word (any word you want)
 guessed = ""
 wrong = 0
 won = False
 
-for attempt in range():     # task #2: how many attempts should be?🤔
+for attempt in range(6):     # task #2: how many attempts should be?🤔
     # --- 1. showing word or mistakes number ---
     display = ""
     for letter in word:
@@ -84,8 +84,9 @@ for attempt in range():     # task #2: how many attempts should be?🤔
             pen.pendown()
             pen.goto(60, 50)
         elif wrong == 4:                  # task #3: I suddenly forgot how to draw right hand, will you help?
-
-            
+            pen.goto(80,70)
+            pen.pendown()
+            pen.goto(100,50)
         elif wrong == 5:                  # left leg
             pen.goto(80, 40)
             pen.pendown()
